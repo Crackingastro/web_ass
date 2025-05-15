@@ -8,12 +8,14 @@ body{
 
 .main{
     width: 75%;
-    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .heading, .text{
     color:white;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     
 }
@@ -24,11 +26,16 @@ body{
     background: linear-gradient(to left, #6b6a6a, #fff);
     -webkit-background-clip: text;  /* Clip background to text */
     -webkit-text-fill-color: transparent;
+    margin-bottom: 25px;
 }
 
 .text{
     font-size: 30px;
     font-weight: 20;
+    background: linear-gradient(to right, #4f4e4e, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 70%;
 }
 
 .c{
@@ -36,14 +43,14 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    gap:10px
+    gap:10px;
 }
 
 .main_button{
     border-radius: 10px;
-    font-family: "Poppins";
+    font-family: 'Poppins', sans-serif;
     padding: 10px 20px;
     border: 0;
-    font-weight: 500;
+    font-weight: 900;
 }
 
