@@ -99,6 +99,7 @@ input[type="text"],select{
     height: auto;
     align-items: center;
     img{
+        border-radius: 20px;
         width: 350px;
         height: auto;
     }
@@ -106,6 +107,7 @@ input[type="text"],select{
 
 .imgList{
     img{
+    border-radius: 5px;
     width: 100px;
     height: auto;
     }
@@ -114,7 +116,7 @@ input[type="text"],select{
 button{
     border: none;
     color: #D9D9D9;
-    background-color:rgb(66, 32, 190);
+    background-color:rgb(46, 3, 200);
     font-size: 20px;
     font-weight: 700;
     border-radius: 10px;
