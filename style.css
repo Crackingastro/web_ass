@@ -27,7 +27,7 @@ body{
     background: linear-gradient(to left, #6b6a6a, #fff);
     -webkit-background-clip: text;  /* Clip background to text */
     -webkit-text-fill-color: transparent;
-    margin-bottom: 35px;
+    margin-bottom: 25px;
 }
 
 .text{

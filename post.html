@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post</title>
+    <link rel="stylesheet" href="post.css">
+</head>
+<body>
+    <nav>
+        <a  href=""><img id="star-icon" src="img/Star.png"></a>
+        <a  href=""><img id="profileicon" src="img/profileicon.png"></a>
+    </nav>
+    <div class="main">
+        <form>
+            <div>
+                <label name="product">Name of product:</label>
+                <input type="text" name="product">
+            </div>
+
+            <div>
+                <label name="productType">Type of product:</label>
+                <select name="productType" id="productType">
+                    <option value="" disabled selected>Select a product type</option>
+                    <option value="electronics">Electronics</option>
+                    <option value="clothing">Clothing</option>
+                    <option value="books">Books</option>
+                    <option value="homegoods">Snacks</option>
+                    <option value="ferniture">Furniture</option>
+                </select>
+            </div>
+
+            <div>
+                <label name="price">Price:</label>
+                <div id="price">
+                    <input type="text" name="price">birr
+                </div>
+            </div>
+
+            <div>
+                <label name="descri">Description:</label>
+                <textarea name="descri" id="descri">
+
+                </textarea>
+            </div>
+
+            <div class="imgContainer">
+                <div class="mainImg">
+                    <a class="t_img"><img src="img/noImage.png"></a>
+                    <button id="upload">
+                        Upload image
+                    </button>
+                </div>
+                <div class="imgList">
+                    <a class="f_img"><img src="img/noImage.png"></a>
+                    <a class="s_img"><img src="img/noImage.png"></a>
+                    <a class="t_img"><img src="img/noImage.png"></a>
+                </div>
+            </div>
+        </form>
+        <button>Post</button>
+    </div>   
+    
+</body>
+</html>
