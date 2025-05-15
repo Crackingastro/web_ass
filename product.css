@@ -1,0 +1,9 @@
+body{
+    display: flex;
+    background: linear-gradient(to bottom, #1F1F1F, #908F8F);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+}
+
+
