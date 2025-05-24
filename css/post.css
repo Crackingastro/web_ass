@@ -1,0 +1,139 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to bottom, #1F1F1F, #908F8F);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    justify-content: center;
+    align-items: center;
+    padding:0;
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+    /*overflow: hidden;*/
+}
+
+nav{
+    height: 50px;
+    width: 90%;
+    border-bottom:1px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap:10px;
+
+    
+}
+
+nav a{
+    overflow: hidden;
+}
+nav img{
+    width: 35px;
+    height: auto;
+}
+
+nav #star-icon{
+    width:25px;
+}
+
+.main div, .main{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin: 25px;
+}
+
+.main{
+    padding:20px;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+label{
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+input[type="text"],select{
+    margin-left:10px ;
+    background-color: #D9D9D9;
+    font-weight: 50;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    padding: 5px 10px;
+    width:300px;
+    height: 45px;
+}
+
+#price{
+    flex-direction: row;
+    padding: 0;
+    margin: 0;
+    font-size: 30px;
+    align-items: end;
+    color:#D9D9D9 ;
+}
+
+#descri{
+    padding: 10px;
+    width: 350px;
+    height: 600px;
+    height: 200px;
+    font-size: medium;
+    border-radius: 20px;
+    background-color:#D9D9D9 ;
+}
+
+.main .imgContainer{
+    flex-direction: row;
+}
+
+.mainImg{
+    display: block;
+    position: relative;
+    height: auto;
+    align-items: center;
+    img{
+        border-radius: 20px;
+        width: 350px;
+        height: auto;
+    }
+}
+
+.imgList{
+    img{
+    border-radius: 5px;
+    width: 100px;
+    height: auto;
+    }
+}
+
+button{
+    border: none;
+    color: #D9D9D9;
+    background-color:rgb(46, 3, 200);
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    width:100px;
+    height: 30px;
+    margin-left: 200px;
+}
+
+#upload{
+    position: absolute;
+    top:50%;
+    z-index: 50;
+    opacity:0;
+    width: 200px;
+    margin: 0;
+}
+
+.mainImg:hover #upload {
+    opacity: 1;
+}

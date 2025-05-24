@@ -9,6 +9,7 @@ body{
 .main{
     width: 75%;
     display: flex;
+    justify-content: center;
     flex-direction: column;
     align-items: center;
 }
@@ -32,8 +33,8 @@ body{
 .text{
     font-size: 30px;
     font-weight: 20;
-    background: linear-gradient(to right, #4f4e4e, #fff);
-    -webkit-background-clip: text;
+    background: linear-gradient(to right, #6b6a6a, #fff);
+    -webkit-background-clip: text;  /* Clip background to text */
     -webkit-text-fill-color: transparent;
     width: 70%;
 }
@@ -52,5 +53,7 @@ body{
     padding: 10px 20px;
     border: 0;
     font-weight: 900;
+    font-size: larger;
+    width:150px;
 }
 
